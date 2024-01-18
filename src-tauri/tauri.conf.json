@@ -19,12 +19,14 @@
         "icons/128x128.png",
         "icons/128x128@2x.png",
         "icons/icon.icns",
-        "icons/icon.ico"
+        "icons/icon.ico",
+        "icons/starbucket_logo.png"
       ]
     },
     "security": {
       "csp": null
     },
+    "macOSPrivateApi": true,
     "windows": [
       {
         "fullscreen": false,
@@ -32,7 +34,8 @@
         "title": "Starbucket - Development",
         "transparent": true,
         "width": 800,
-        "height": 600
+        "height": 600,
+        "fileDropEnabled": true
       }
     ]
   },
